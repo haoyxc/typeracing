@@ -1,18 +1,9 @@
-# Mini Exercises
+# [Exercise 1: Mini React Apps](mini.md)
 
-Complete
+[Mini React Apps](mini.md)
 
-1. [Add contact to contact list](https://stackblitz.com/edit/horizons-inline-map-concat?file=index.js)
+# Exercise 2
 
-    <details><summary>
-    Your app should look like this when you're done
-    </summary><p>
-
-    ![](https://horizons-static.s3.amazonaws.com/reactw6d1/react-addcontact.gif)
-
-    </p></details>
-
-# Exercise 1
 ### Getting our feet wet with React-Redux
 
  So far we have seen how to convert our simple [color toggle redux app]() to react-redux. The motivation for converting from using React alongside Redux to integrating React and Redux using [React-Redux]() (also called the React-Redux "bindings") was to remove the need to re-render our entire react app on each store change.
@@ -81,5 +72,6 @@ Complete
 
 ![](https://d3vv6lp55qjaqc.cloudfront.net/items/0k3A0A0Z1q0U09011G1M/Screen%20Recording%202017-05-28%20at%2005.59%20PM.gif?v=713df0df)
 
-# Exercise 2
- [CLICK HERE FOR SECOND EXERCISE REPO](https://github.com/horizons-school-of-technology/todo-redux/)
+# Exercise 3
+
+[CLICK HERE FOR THIRD EXERCISE REPO](https://github.com/horizons-school-of-technology/todo-redux/)
