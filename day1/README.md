@@ -2,6 +2,8 @@
 
 [Mini React Apps](mini.md)
 
-# react-scheduler
+# [react-scheduler][react-scheduler]
 
-[CLICK HERE FOR MINI-PROJECT REPO](https://github.com/horizons-school-of-technology/projects/blob/master/react-scheduler/README.md)
+[react scheduler mini-project][react-scheduler]
+
+[react-scheduler]: https://github.com/horizons-school-of-technology/projects/blob/master/react-scheduler/README.md
