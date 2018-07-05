@@ -1,8 +1,8 @@
-# [Mini React Apps](mini.md)
+# Part 1: [Mini React Apps](mini.md)
 
 [Mini React Apps](mini.md)
 
-# [react-scheduler][react-scheduler]
+# Part 2: [react-scheduler][react-scheduler]
 
 [react scheduler mini-project][react-scheduler]
 
