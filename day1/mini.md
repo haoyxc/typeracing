@@ -1,7 +1,5 @@
 # Mini Exercises
 
-Complete TODO
-
 1. Complete the [Search contacts exercise on Stackblitz](https://stackblitz.com/edit/horizons-inline-map-filter)
 
     <details><summary>
