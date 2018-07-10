@@ -1,4 +1,4 @@
-# Vidoes 
+# Videos 
 
 - [React Review](https://vimeo.com/278552488)
 - [Mini Exercise 1 Code Along](https://vimeo.com/278559595)
