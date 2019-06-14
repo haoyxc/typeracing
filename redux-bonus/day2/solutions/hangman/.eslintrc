@@ -3,7 +3,8 @@
   "env": {
     "browser": true,
     "node": true,
-    "mocha": true
+    "mocha": true,
+    "es6": true
   },
   "globals": {
     "expect": true,
@@ -119,7 +120,7 @@
       { "SwitchCase": 1 }
     ],                              // http://eslint.org/docs/rules/indent
     "brace-style": [
-      2,                          
+      2,
       "1tbs", {
         "allowSingleLine": true
       }
