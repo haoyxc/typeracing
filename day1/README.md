@@ -14,7 +14,7 @@
 
 ### Getting our feet wet with React-Redux
 
- So far we have seen how to convert our simple [color toggle redux app]() to react-redux. The motivation for converting from using React alongside Redux to integrating React and Redux using [React-Redux]() (also called the React-Redux "bindings") was to remove the need to re-render our entire react app on each store change.
+ So far we have seen how to convert our simple [color toggle redux app](https://codepen.io/ariabuckles/pen/YjYYZx?editors=0010) to react-redux. The motivation for converting from using React alongside Redux to integrating React and Redux using [React-Redux](https://react-redux.js.org/) (also called the React-Redux "bindings") was to remove the need to re-render our entire react app on each store change.
  Before we "migrated" our color toggle redux app we had to subscribe the `render()` method to the store and each time we clicked the `ColorSquare` the `render()` method forced a new call to `ReactDOM.render()`. React-Redux bindings let us use `connect` in place of `store.subscribe()`. This way each component can be told to re-render instead of every component being forced to re-render.
 
  In this exercise we will get more practice with using the React-Redux bindings by applying the same steps to another simple redux app we have already seen ([Simple Redux Counter](https://codepen.io/rick-shar/pen/qrBwRz)).
