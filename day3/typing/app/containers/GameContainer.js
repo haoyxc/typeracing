@@ -1,6 +1,8 @@
-import PropTypes from 'prop-types';
-import React from 'react';
-import { connect } from 'react-redux';
+import PropTypes from "prop-types";
+import React from "react";
+import { connect } from "react-redux";
+import WordBox from "../components/WordBox";
+import TextBox from "../components/TextBox";
 
 class GameContainer extends React.Component {
     onInput(input) {
@@ -8,27 +10,39 @@ class GameContainer extends React.Component {
     }
 
     render() {
+        console.log("PROPS", this.props);
         return (
-            <div>
-                I am the game container!
-                {
-                    // YOUR GAME COMPONENT HERE
-                }
+            <div className="gameContainer">
+                <WordBox wordList={this.props.wordList} />
+                <TextBox
+                    userInput={this.props.userInput}
+                    onInput={e => {
+                        this.onInput(e);
+                    }}
+                />
             </div>
         );
     }
 }
 
-GameContainer.propTypes = {
+let onInput = event => {
+    let letter = String.fromCharCode(event.which);
+    console.log(letter);
 };
 
-const mapStateToProps = (state) => {
+GameContainer.propTypes = {
+    wordList: PropTypes.array
+};
+
+const mapStateToProps = state => {
+    console.log("STATE", state);
     return {
-        // YOUR MAP STATE TO PROPS HERE
+        wordList: state.gameState.wordList,
+        userInput: state.gameState.userInput
     };
 };
 
-const mapDispatchToProps = (dispatch) => {
+const mapDispatchToProps = dispatch => {
     return {
         // YOUR MAP DISPATCH TO PROPS HERE
     };

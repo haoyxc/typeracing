@@ -4,3 +4,4 @@ coverage
 webpack.*.js
 *server.js
 dictionary.js
+*

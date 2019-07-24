@@ -1,19 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <title>React/Redux Typing Game</title>
+        <meta name="description" content="React/Redux Typing Game" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.9.1/underscore.js"
+            integrity="sha256-O4179En8zabOlPYBNvGp8cF0uh0vnSZpW4Q6Ul1h+8c="
+            crossorigin="anonymous"
+        ></script>
+        <style>
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            .gameContainer {
+                margin-left: 30px;
+            }
+            .wordbox {
+                border: 2px solid black;
+                border-radius: 5px;
+                padding: 10px;
+                width: 60vw;
+                font-size: 1.5rem;
+            }
+            .inputBox {
+                width: 60vw;
+                margin-top: 30px;
+                padding: 10px;
+                /* margin: 10vh 20vw; */
+            }
+            .pending {
+                background-color: lightpink;
+            }
+            .correct {
+                background-color: #71e6f5;
+            }
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>React/Redux Typing Game</title>
-    <meta name="description" content="React/Redux Typing Game">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        /* YOUR CSS STYLES HERE */
-    </style>
-</head>
+            .wrong {
+                background-color: #ffeb3b;
+                text-decoration: line-through;
+            }
+        </style>
+    </head>
 
-<body class="view-login">
-    <div id="root"></div>
-</body>
-
+    <body class="view-login">
+        <div id="root"></div>
+    </body>
 </html>
