@@ -1,20 +1,9 @@
-# Week 6 Exercises
+# day3/typing - typing game (horizons project)
 
-1. [Day 1](day1/)
-    1. Morning Videos
-    1. Counter
-    1. Todo App: React with Redux
-1. [Day 2](day2/)
-    1. Redux Hangman
-    1. React Router Directory
-1. [Day 3](day3/typing)
-    1. React Typing Game
+inspired by typeracer; gauges typing speed given a certain range of time 
 
-# Videos
-
-- [React Review Lecture](https://vimeo.com/278552488)
-- [Mini Exercise 1 Code Along](https://vimeo.com/278559595)
-- [Mini Exercise 2 Code Along](https://vimeo.com/278561676)
-- [Mini Exercise 3 Code Along](https://vimeo.com/278563458)
-- [Mini Exercise 4 Code Along](https://vimeo.com/278564724)
-- [Mini Exercise 5 Code Along](https://vimeo.com/278567039)
+### Preview
+When the game is over: (marking differ based on if letters were typed wrong/right
+![typing1](https://user-images.githubusercontent.com/48307028/62673508-a0639c80-b96c-11e9-90ba-7911a2065783.JPG)
+before time elapses: 
+![typing2](https://user-images.githubusercontent.com/48307028/62673509-a0639c80-b96c-11e9-9757-b31a0f8be4e1.JPG)
